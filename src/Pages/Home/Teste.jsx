@@ -8,7 +8,6 @@ function Home(){
     const inputAdicionar = useRef();
     console.log(inputAdicionar.current);
 
-    // Hook
     // useState - Cria uma variavel de estado
         // Ele não retorna uma informação
         // ele retorna um array [a variavel que armazena a informação, uma função para alterar essa informação]
