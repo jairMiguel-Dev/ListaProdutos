@@ -22,7 +22,7 @@ function Home(){
         setListaMercado(novaLista); // Atualiza o estado com a nova lista
     }
 
-    const totalProdutos = listaMercado.length;
+    const totalProdutos = listaMercado.length; // capturando a quant. de itens dentro do array
 
     return (
         <div className="text-center bg-gray-200 h-screen w-screen"> 
